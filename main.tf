@@ -1,6 +1,6 @@
 module "mechanoidstore" {
     #source = "../terraform-aws-vpc"
-    source = "git::https://github.com/yjash0801/terraform-vpc-test.git?ref=master"
+    source = "git::https://github.com/yjash0801/terraform-aws-vpc.git?ref=master"
     project_name = var.project_name
     environment = var.environment
     common_tags = var.common_tags
